@@ -91,6 +91,7 @@ Use this folder if you intend to play XCOM 2 War of the Chosen expansion:
     ..\XCOM 2\XCom2-WarOfTheChosen\XComGame\Mods
 
 2) Put the mods into this folder. If mods are in archives, you have to extract them. In the end, each individual mod must be in their own folder that contains the mod's `.XComMod` file. 
-![image 1](/X2WotCModdingWiki/images/assets/DownloadInstallMods_1.jpg) ![image 2](/X2WotCModdingWiki/images/assets/DownloadInstallMods_2.jpg)
+
+![image 1](/X2WotCModdingWiki/assets/images/DownloadInstallMods_1.jpg) ![image 2](/X2WotCModdingWiki/assets/images/DownloadInstallMods_2.jpg)
 
 For maximum safety and stability, the name of mod's folder should be the same as the name of the `.XComMod` file inside it, though strictly speaking this is important only for mods that replace the game's cooked assets. For War of the Chosen, the only known mod that does it is the X2 WOTC Community Highlander.
