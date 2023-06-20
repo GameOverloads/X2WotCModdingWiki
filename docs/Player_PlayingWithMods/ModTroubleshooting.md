@@ -18,7 +18,7 @@ The 2K Launcher has limited functionality and often fails to load mods. If your 
 
 If **Framerate Smoothing** is enabled in game's settings, it may interfere with **[UIScreenListeners](https://www.reddit.com/r/xcom2mods/wiki/uiscreenlisteners)** and **[ModClassOverrides](https://www.reddit.com/r/xcom2mods/wiki/index/mod_class_overrides)**, which are commonly used in mods.
 
-![Framerate Smoothing Option in Options](/X2WotCModdingWiki/assets/images/ModTroubleshooting_2.png)
+![Framerate Smoothing Option in Options](/X2WotCModdingWiki/assets/images/ModTroubleshooting_2.jpg)
 
 ## Avoid playing in Ironman mode
 
@@ -275,7 +275,7 @@ Make sure to [**regenerate user config**](#regenerate-user-config) after game's 
 * If your Character Pool has soldiers with mod-added cosmetic body parts, backup the Character Pool file: `..\Documents\my games\XCOM2 War of the Chosen\XComGame\CharacterPool\DefaultCharacterPool.bin`
 * If you are using Alternative Mod Launcher, save your your current mod list as a text file on the Profiles tab.
 
-![Profiles tab in Alternate Mod Launcher](ModTroubleshooting_ProfilesTab.png)
+![Profiles tab in Alternate Mod Launcher](/X2WotCModdingWiki/assets/images/ModTroubleshooting_ProfilesTab.png)
 
 **The search:**
 
