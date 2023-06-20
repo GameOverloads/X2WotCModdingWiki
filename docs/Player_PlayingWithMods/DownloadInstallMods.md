@@ -4,7 +4,7 @@ title: "Downloading and Installing Mods"
 permalink: /PlayingWithMods/DownloadInstallMods/
 ---
 
-This article will explain how to download and install mods. After you're done with that, go to **[this article](https://www.reddit.com/r/xcom2mods/wiki/index/starting_the_game)** to learn how to play with mods.
+This article will explain how to download and install mods. After you're done with that, go to **[this article](/X2WotCModdingWiki/PlayingWithMods/ModLaunchers/)** to learn how to play with mods.
 
 # How to Download Mods
 
@@ -17,18 +17,12 @@ All XCOM 2 mod launchers will automatically pick up mods downloaded this way, no
 ### Troubleshooting: Steam doesn't download mods
 
 
-[Go here.](/PlayingWithMods/ModTroubleshooting#i-am-subscribed-to-a-mod-but-it-doesnt-appear-in-the-mod-launcher
-<!--
-[Go here.](https://www.reddit.com/r/xcom2mods/wiki/mod_troubleshooting#wiki_i_am_subscribed_to_a_mod.2C_but_it_doesn.27t_appear_in_the_mod_launcher.21)
--->
+[Go here.](/X2WotCModdingWiki/PlayingWithMods/ModTroubleshooting#i-am-subscribed-to-a-mod-but-it-doesnt-appear-in-the-mod-launcher
+
 ## WorkshopDL
 
 [WorkshopDL](https://github.com/VovoloGames/WorkshopDL) is a third-party standalone tool for downloading workshop mods even for games you don't own on Steam. It is essentially a [SteamCMD](#SteamCMD) with proper user interface, and it 
 is the recommended way of getting mods for people who don't own XCOM 2 on steam.
-<!--
-[WorkshopDL](https://github.com/VovoloGames/WorkshopDL) is a third-party standalone tool for downloading workshop mods even for games you don't own on Steam. It is essentially a [SteamCMD](https://www.reddit.com/r/xcom2mods/wiki/index/download_mods#wiki_steamcmd) with proper user interface, and it 
-is the recommended way of getting mods for people who don't own XCOM 2 on steam.
--->
 
 ## Skymods
 
@@ -96,6 +90,7 @@ Use this folder if you intend to play XCOM 2 War of the Chosen expansion:
 
     ..\XCOM 2\XCom2-WarOfTheChosen\XComGame\Mods
 
-2) Put the mods into this folder. If mods are in archives, you have to extract them. In the end, each individual mod must be in their own folder that contains the mod's `.XComMod` file. Example [image 1](https://i.imgur.com/U1XuGVb.jpg), [image 2](https://i.imgur.com/UIZ7olV.jpg).
+2) Put the mods into this folder. If mods are in archives, you have to extract them. In the end, each individual mod must be in their own folder that contains the mod's `.XComMod` file. 
+![image 1](/X2WotCModdingWiki/PlayingWithMods/Player_PlayingWithMods/images/DownloadInstallMods_1.jpg) ![image 2](/X2WotCModdingWiki/PlayingWithMods/Player_PlayingWithMods/images/DownloadInstallMods_2.jpg)
 
 For maximum safety and stability, the name of mod's folder should be the same as the name of the `.XComMod` file inside it, though strictly speaking this is important only for mods that replace the game's cooked assets. For War of the Chosen, the only known mod that does it is the X2 WOTC Community Highlander.

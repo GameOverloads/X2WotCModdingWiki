@@ -10,11 +10,15 @@ Follow these general recommendations to reduce the chances of problems occurring
 
 ## Use Alternative Mod Launcher
 
-The 2K Launcher has limited functionality and often fails to load mods. If your **[game release](/PlayingWithMods/X2Releases/)** supports the **[Alternative Mod Launcher](/PlayingWithMods/ModLaunchers/#alternative-mod-launcher)**, it's highly recommended you use it - it's very reliable and has a lot of features. Note: if you run Steam with administrator privileges, then make sure to launch AML [as administrator](https://i.stack.imgur.com/7lKPq.png) as well. 
+The 2K Launcher has limited functionality and often fails to load mods. If your **[game release](/X2WotCModdingWiki/PlayingWithMods/X2Releases/)** supports the **[Alternative Mod Launcher](/PlayingWithMods/ModLaunchers/#alternative-mod-launcher)**, it's highly recommended you use it - it's very reliable and has a lot of features. Note: if you run Steam with administrator privileges, then make sure to launch AML **as administrator** as well.
+
+![Run As Administrator by Right Clicking on the Shortcut or Executable](/X2WotCModdingWiki/PlayingWithMods/Player_PlayingWithMods/images/ModTroubleshooting_1.png)
 
 ## Do not enable Framerate Smoothing
 
-If **[Framerate Smoothing](https://i.imgur.com/upP9wnK.jpg)** is enabled in game's settings, it may interfere with **[UIScreenListeners](https://www.reddit.com/r/xcom2mods/wiki/uiscreenlisteners)** and **[ModClassOverrides](https://www.reddit.com/r/xcom2mods/wiki/index/mod_class_overrides)**, which are commonly used in mods.
+If **Framerate Smoothing** is enabled in game's settings, it may interfere with **[UIScreenListeners](https://www.reddit.com/r/xcom2mods/wiki/uiscreenlisteners)** and **[ModClassOverrides](https://www.reddit.com/r/xcom2mods/wiki/index/mod_class_overrides)**, which are commonly used in mods.
+
+![Framerate Smoothing Option in Options](/X2WotCModdingWiki/PlayingWithMods/Player_PlayingWithMods/images/ModTroubleshooting_2.png)
 
 ## Avoid playing in Ironman mode
 
@@ -36,7 +40,7 @@ How to tell if a vanilla mod is safe to use in WOTC:
 
 * Almost all vanilla voicepacks and mods that add soldier cosmetics work in WOTC just fine.
 
-**Note:** the 2K Launcher is unable to load vanilla mods with WOTC, so you have to use **[other methods](/PlayingWithMods/ModLaunchers/)** to load them.
+**Note:** the 2K Launcher is unable to load vanilla mods with WOTC, so you have to use **[other methods](/X2WotCModdingWiki/PlayingWithMods/ModLaunchers/)** to load them.
 
 2) **Mods made with XCOM 2 War of the Chosen SDK.** They are intended for the XCOM 2 War of the Chosen, and will not work vanilla XCOM 2.
 
@@ -52,15 +56,15 @@ How to tell if a mod was made for WOTC:
 
 ## Be careful about using mods with known issues
 
-Check the [List of Problematic Mods](/PlayingWithMods/ProblematicMods/) to see if any of the mods you are using are known to cause problems. Maybe you should avoid using them.
+Check the [List of Problematic Mods](/X2WotCModdingWiki/PlayingWithMods/ProblematicMods/) to see if any of the mods you are using are known to cause problems. Maybe you should avoid using them.
 
 ## Use bugfix mods for other mods when necessary
 
-Check the [List of Mods with Fixes Available](/PlayingWithMods/ModsWithFixes/) to see if any of the mods you are using have bugfix mods available.
+Check the [List of Mods with Fixes Available](/X2WotCModdingWiki/PlayingWithMods/ModsWithFixes/) to see if any of the mods you are using have bugfix mods available.
 
 ## Use newer and better mods when possible
 
-Check the [List of Superseded Mods](/PlayingWithMods/SupersededMods/) to make sure you're using the best and latest versions of popular mods.
+Check the [List of Superseded Mods](/X2WotCModdingWiki/PlayingWithMods/SupersededMods/) to make sure you're using the best and latest versions of popular mods.
 
 ## Do not remove mods mid campaign
 
@@ -126,7 +130,7 @@ If the game still doesn't work after that, look into other software and hardware
 
 ## My game crashes with mods!
 
-1. Take a long hard look at your mod list. Make sure you are using the [right mods for your version of the game](https://www.reddit.com/r/xcom2mods/wiki/mod_troubleshooting#wiki_use_the_right_mods_for_the_right_version_of_the_game). For example, **[Long War 2](https://steamcommunity.com/sharedfiles/filedetails/?id=844674609)** will never work with WOTC, use **[Long War of the Chosen instead](https://github.com/long-war-2/lwotc/wiki/Installing-Long-War-of-the-Chosen)** instead.
+1. Take a long hard look at your mod list. Make sure you are using the [right mods for your version of the game](#use-the-right-mods-for-the-right-version-of-the-game). For example, **[Long War 2](https://steamcommunity.com/sharedfiles/filedetails/?id=844674609)** will never work with WOTC, use **[Long War of the Chosen instead](https://github.com/long-war-2/lwotc/wiki/Installing-Long-War-of-the-Chosen)** instead.
 
 2. If the game always crashes in the same spot, like when starting the game, or after completing Gate Crasher or loading a specific mission, use [Binary Search](#binary-search) to find problematic mod(s).
 
@@ -146,9 +150,9 @@ If the game still doesn't load even after 15 minutes or more, then treat this pr
 
 ## The game is not loading mods!
 
-1. If you're using the 2K Launcher, look into **[other methods](https://www.reddit.com/r/xcom2mods/wiki/index/starting_the_game)** of loading mods, as the 2K Launcher often fails to load mods.
+1. If you're using the 2K Launcher, look into **[other methods](/X2WotCModdingWiki/PlayingWithMods/ModLaunchers/)** of loading mods, as the 2K Launcher often fails to load mods.
 
-2. If you're using the Alternative Mod Launcher, make sure you do not have `-regenerateinis` [launch argument](/PlayingWithMods/ModLaunchers/) enabled. It makes the game recreate configuration files every time you start the game, wiping the list of active mods. Disable it and launch the game twice, the game should start loading mods on the second launch.
+2. If you're using the Alternative Mod Launcher, make sure you do not have `-regenerateinis` [launch argument](https://www.reddit.com/r/xcom2mods/wiki/launch_arguments/) enabled. It makes the game recreate configuration files every time you start the game, wiping the list of active mods. Disable it and launch the game twice, the game should start loading mods on the second launch.
 
 3. Make sure Framerate Smoothing is disabled in game's settings, it prevents many mods from working.
 
@@ -166,7 +170,7 @@ Nobody knows exactly what causes this bug or how to prevent it. The suspected cu
 
 ## I get huge lag on Geoscape!
 
-"Geoscape" refers to the "world map" screen in Strategy. This lag is a symptom of **[Mod Class Override](https://www.reddit.com/r/xcom2mods/wiki/index/mod_class_overrides)** conflicts. If you use **[Alternative Mod Launcher](/PlayingWithMods/ModLaunchers/)**, you get warnings about those. The only MCO conflict that is safe to ignore is the `X2Action_MoveClimbWall` one. All others should be treated as hard conflicts that mean you cannot use these mods together.
+"Geoscape" refers to the "world map" screen in Strategy. This lag is a symptom of **[Mod Class Override](https://www.reddit.com/r/xcom2mods/wiki/index/mod_class_overrides)** conflicts. If you use **[Alternative Mod Launcher](/X2WotCModdingWiki/PlayingWithMods/ModLaunchers/)**, you get warnings about those. The only MCO conflict that is safe to ignore is the `X2Action_MoveClimbWall` one. All others should be treated as hard conflicts that mean you cannot use these mods together.
 
 ## I am subscribed to a mod, but it doesn't appear in the mod launcher!
 
@@ -198,7 +202,7 @@ Your options are the same in either case:
 
 1. If the mod still doesn't download, try **[Verifying Integrity of game's assets through Steam](#verify-game-integrity)**, which will verify and force download subscribed mods as well. 
 
-1. If the mod still doesn't download, then contact Steam support or [**download the mod from elsewhere.**](/PlayingWithMods/DownloadInstallMods/)
+1. If the mod still doesn't download, then contact Steam support or [**download the mod from elsewhere.**](/X2WotCModdingWiki/PlayingWithMods/DownloadInstallMods/)
 
 2) You are using the Alternative Mod Launcher and the mod is hidden. 
 
@@ -216,7 +220,9 @@ If you just unsubscribe from the mod from Steam, this will also delete the mod's
 
 The next time you launch AML, it will show a popup warning, saying that a mod is missing, and offering to hide the mod. If you close the popup without reading or understanding it, then the mod will become hidden, and will remain hidden even if you resubscribe to the mod.
 
-3) You are using the Alternative Mod Launcher and you cannot see the mod because of the filters or the search bar. Empty the search field by clicking on the red cross icon near it, and remove all active filters by clicking the "Clear" button in the lower right corner. [Example image.](https://i.imgur.com/amqJhAY.png)
+3) You are using the Alternative Mod Launcher and you cannot see the mod because of the filters or the search bar. Empty the search field by clicking on the red cross icon near it, and remove all active filters by clicking the "Clear" button in the lower right corner. 
+
+![Example image.](/X2WotCModdingWiki/PlayingWithMods/images/ModTroubleshooting_ModHiddenSearch.png)
 
 ******
 # Fixes
@@ -243,7 +249,10 @@ Note: if you have to do this fix every time just to be able to launch the game, 
 
 **Purpose:** fixing broken game's files.
 
-[Video instruction for verifying the game through Steam](https://youtu.be/dGMkYLu091s)
+<!-- [Video instruction for verifying the game through Steam](https://youtu.be/dGMkYLu091s) -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dGMkYLu091s" title="How to Verify Integrity of Game Files on Steam
+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Verifying the game through Steam will reset any changes you may have done to the game's or mod's files. So if you have manually changed configuration files for some of your workshop mods, these changes will be undone.
 
@@ -263,9 +272,9 @@ Make sure to [**regenerate user config**](#regenerate-user-config) after game's 
 
 * If your current campaign is in **Ironman** mode, backup your Saves folder: `..\Documents\my games\XCOM2 War of the Chosen\XComGame\SaveData\`
 * If your Character Pool has soldiers with mod-added cosmetic body parts, backup the Character Pool file: `..\Documents\my games\XCOM2 War of the Chosen\XComGame\CharacterPool\DefaultCharacterPool.bin`
-* If you are using Alternative Mod Launcher, save your your current mod list as a text file on the [Profiles tab](https://i.imgur.com/dD0wHLZ.png).
+* If you are using Alternative Mod Launcher, save your your current mod list as a text file on the Profiles tab.
 
-
+![Profiles tab in Alternate Mod Launcher](ModTroubleshooting_ProfilesTab.png)
 
 **The search:**
 
@@ -299,4 +308,6 @@ When you find the problematic mod(s), it would be great if you were to send a bu
 
 1. Having your operating system (Windows) and the game installed on an SSD will improve loading times, particularly if it's a PCIE NVME SSD. This is also where your [windows page file](https://www.tomshardware.com/news/how-to-manage-virtual-memory-pagefile-windows-10,36929.html) should be.
 
-1. More RAM will let you play with more mods that take up a lot of disk space, especially voicepacks. 16 GB is generally good enough, but even that may not be enough if you have lots of mods with large file size. You can see the mod filesize in [Steam Workshop interface](https://i.imgur.com/RhDZZlq.jpg), as well as in the Alternative Mod Launcher.
+1. More RAM will let you play with more mods that take up a lot of disk space, especially voicepacks. 16 GB is generally good enough, but even that may not be enough if you have lots of mods with large file size. You can see the mod filesize in Steam Workshop interface, as well as in the Alternative Mod Launcher.
+
+![Mod sizes in a Steam Workshop item](/X2WotCModdingWiki/PlayingWithMods/images/ModTroubleshooting_ModFilesize.jpg)

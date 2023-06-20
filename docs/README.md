@@ -7,11 +7,11 @@ Powered by Unreal Engine 3 :: Version 845.120.
 
 ## PLAYING WITH MODS
 *****
-* [XCOM 2 Releases](/PlayingWithMods/X2Releases/) *Which XCOM 2 release you should buy.*
-* [How to Download Mods](/PlayingWithMods/DownloadInstallMods/)
-* [Mod Launchers](/PlayingWithMods/ModLaunchers/) *An overview of XCOM 2 mod launchers.*
-* [Mod Troubleshooting](/PlayingWithMods/ModTroubleshooting/) *How to fix problems that arise when playing with mods.*
-* [List of Problematic Mods](/PlayingWithMods/ProblematicMods/) *List of mods that are known to cause issues.*
-* [List of Mods with Fixes Available](/PlayingWithMods/ModsWithFixes/) *List of mods that require additional mods to fix bugs in them.*
-* [List of Superseded Mods](/PlayingWithMods/SupersededMods/) *List of mods with newer or better versions available.*
+* [XCOM 2 Releases](/X2WotCModdingWiki/PlayingWithMods/X2Releases/) *Which XCOM 2 release you should buy.*
+* [How to Download Mods](/X2WotCModdingWiki/PlayingWithMods/DownloadInstallMods/)
+* [Mod Launchers](/X2WotCModdingWiki/PlayingWithMods/ModLaunchers/) *An overview of XCOM 2 mod launchers.*
+* [Mod Troubleshooting](/X2WotCModdingWiki/PlayingWithMods/ModTroubleshooting/) *How to fix problems that arise when playing with mods.*
+* [List of Problematic Mods](/X2WotCModdingWiki/PlayingWithMods/ProblematicMods/) *List of mods that are known to cause issues.*
+* [List of Mods with Fixes Available](/X2WotCModdingWiki/PlayingWithMods/ModsWithFixes/) *List of mods that require additional mods to fix bugs in them.*
+* [List of Superseded Mods](/X2WotCModdingWiki/PlayingWithMods/SupersededMods/) *List of mods with newer or better versions available.*
 * [How to Preserve Mods' Configurations in a Local Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2820842366) *How to create a local mod that will store your changes to config files of other mods*

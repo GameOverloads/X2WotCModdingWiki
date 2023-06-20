@@ -48,7 +48,7 @@ Only the steam version officially supports mods, but it's possible to play with 
 
 Alternatively, you can configure the game to load mods without using any mod launcher. This method was organized and written by Rand and confirmed to work with the GoG version of the game.
 
-1) **[Download mods](https://www.reddit.com/r/xcom2mods/wiki/index/download_mods)** and **[install them manually](https://www.reddit.com/r/xcom2mods/wiki/index/download_mods#wiki_how_to_install_mods_manually)**.
+1) **[Download mods](/X2WotCModdingWiki/PlayingWithMods/DownloadInstallMods)** and **[install them manually](/X2WotCModdingWiki/PlayingWithMods/DownloadInstallMods#how-to-install-mods-manually)**.
 
 2) Write down file names of `.XComMod` files of all mods that you wish to use, without the extension. For example, if the file name is `AugmentsWotCCodexBegone.XComMod`, then write down `AugmentsWotCCodexBegone`.
 
