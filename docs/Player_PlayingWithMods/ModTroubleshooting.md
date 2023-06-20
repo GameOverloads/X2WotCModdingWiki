@@ -12,13 +12,13 @@ Follow these general recommendations to reduce the chances of problems occurring
 
 The 2K Launcher has limited functionality and often fails to load mods. If your **[game release](/X2WotCModdingWiki/PlayingWithMods/X2Releases/)** supports the **[Alternative Mod Launcher](/PlayingWithMods/ModLaunchers/#alternative-mod-launcher)**, it's highly recommended you use it - it's very reliable and has a lot of features. Note: if you run Steam with administrator privileges, then make sure to launch AML **as administrator** as well.
 
-![Run As Administrator by Right Clicking on the Shortcut or Executable](/X2WotCModdingWiki/PlayingWithMods/Player_PlayingWithMods/images/ModTroubleshooting_1.png)
+![Run As Administrator by Right Clicking on the Shortcut or Executable](/X2WotCModdingWiki/assets/images/ModTroubleshooting_1.png)
 
 ## Do not enable Framerate Smoothing
 
 If **Framerate Smoothing** is enabled in game's settings, it may interfere with **[UIScreenListeners](https://www.reddit.com/r/xcom2mods/wiki/uiscreenlisteners)** and **[ModClassOverrides](https://www.reddit.com/r/xcom2mods/wiki/index/mod_class_overrides)**, which are commonly used in mods.
 
-![Framerate Smoothing Option in Options](/X2WotCModdingWiki/PlayingWithMods/Player_PlayingWithMods/images/ModTroubleshooting_2.png)
+![Framerate Smoothing Option in Options](/X2WotCModdingWiki/assets/images/ModTroubleshooting_2.png)
 
 ## Avoid playing in Ironman mode
 
@@ -46,7 +46,8 @@ How to tell if a vanilla mod is safe to use in WOTC:
 
 How to tell if a mod was made for WOTC:
 
-* War of the Chosen DLC is **[marked as required](https://i.imgur.com/Mx1yNAx.png)**.
+* War of the Chosen DLC is marked as required.
+![DLC Requirement](/X2WotCModdingWiki/assets/images/ModTroubleshooting_DLCReq.png)
 
 * It has "WOTC" in its name.
 
@@ -222,7 +223,7 @@ The next time you launch AML, it will show a popup warning, saying that a mod is
 
 3) You are using the Alternative Mod Launcher and you cannot see the mod because of the filters or the search bar. Empty the search field by clicking on the red cross icon near it, and remove all active filters by clicking the "Clear" button in the lower right corner. 
 
-![Example image.](/X2WotCModdingWiki/PlayingWithMods/images/ModTroubleshooting_ModHiddenSearch.png)
+![Example image.](/X2WotCModdingWiki/assets/images/ModTroubleshooting_ModHiddenSearch.png)
 
 ******
 # Fixes
@@ -310,4 +311,4 @@ When you find the problematic mod(s), it would be great if you were to send a bu
 
 1. More RAM will let you play with more mods that take up a lot of disk space, especially voicepacks. 16 GB is generally good enough, but even that may not be enough if you have lots of mods with large file size. You can see the mod filesize in Steam Workshop interface, as well as in the Alternative Mod Launcher.
 
-![Mod sizes in a Steam Workshop item](/X2WotCModdingWiki/PlayingWithMods/images/ModTroubleshooting_ModFilesize.jpg)
+![Mod sizes in a Steam Workshop item](/X2WotCModdingWiki/assets/images/ModTroubleshooting_ModFilesize.jpg)
