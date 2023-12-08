@@ -5,6 +5,9 @@ For articles about modding Chimera Squad specifically, [go here.](https://www.re
 
 Powered by Unreal Engine 3 :: Version 845.120.
 
+## MODDING WITH MASTER MATERIALS
+* [XCOM 2 WOTC Master Materials](https://github.com/GameOverloads/X2WotCModdingWiki/blob/main/docs/Modder_Master_Material/XCOM_2_WOTC_Master_Materials.md) *What the most important Master Materials included with War Of The Chosen.*
+
 ## PLAYING WITH MODS
 *****
 * [XCOM 2 Releases](/X2WotCModdingWiki/PlayingWithMods/X2Releases/) *Which XCOM 2 release you should buy.*
