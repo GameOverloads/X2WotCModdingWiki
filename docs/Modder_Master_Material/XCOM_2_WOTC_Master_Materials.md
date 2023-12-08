@@ -13,6 +13,8 @@
 > [!NOTE]
 > UDK Materials & Textures Link: [MaterialsAndTexturesHome](https://docs.unrealengine.com/udk/Three/MaterialsAndTexturesHome.html)
 
+-------------
+
 # UnitArmor_M
 **Used with faction soldier armor assets.**
 > [!IMPORTANT]
@@ -24,11 +26,96 @@
 > [!NOTE]
 > Example Material Instance: Skirmisher_Helmets > Materials > Skirmisher_Helmet_A
 
+-------------
+
+<details>
+
+<summary>Shared Textures</summary>
+
+## Shared Textures
+
+| Cloth Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Cloth Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+| Emissive Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Emissive Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+| Pattern Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Primary Pattern Tint Mask |
+| Green | Secondary Pattern Tint Mask |
+| Blue  | Black |
+| Alpha | White |
+
+| Diffuse | Default Texture |
+|     :---:      |     :---:      |
+| Red   | Base Color |
+| Green | Base Color |
+| Blue  | Base Color |
+| Alpha | Roughness |
+
+| Metallic Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Metallic Mask |
+| Green | Occlusion Map |
+| Blue  | Black |
+| Alpha | White |
+
+| Normal | Normal Texture |
+|     :---:      |     :---:      |
+| Red   | Normal X |
+| Green | Normal Y |
+| Blue  | Normal Z |
+| Alpha | White |
+
+
+</details>
+
+<details>
+
+<summary>UnitArmor_M_ClearCoat Textures</summary>
+
+### UnitArmor_M_ClearCoat Textures
+
+| Clear Coat Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Clear Coat Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+</details>
+
+<details>
+
+<summary>UnitArmor_M_OpacityMasked Textures</summary>
+
+### UnitArmor_M_OpacityMasked Textures
+
+| Opacity Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Opacity Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+</details>
+
+-------------
+
 <details>
 
 <summary>Shared Properties</summary>
 
-## Common Properties
+## Shared Properties
 
 | Cloth | Optional | An effect for mimicking how light interacts with cloth. |
 |     :---:      |     :---:      |     :---:      |
