@@ -1,6 +1,6 @@
 # XCOM 2 - WAR OF THE CHOSEN - MASTER MATERIALS
-**Included In:** `Materials_XPack`
-<br> A list of important native WOTC master materials and their native material instance options.
+**A list of important native WOTC master materials and their native material instance options.**
+<br>Included In: `Materials_XPack`
 
 > [!CAUTION]
 > Do not modify native master materials when creating mods; this will affect all base game and mod material instances.
@@ -24,42 +24,52 @@
 > [!NOTE]
 > Example Material Instance: Skirmisher_Helmets > Materials > Skirmisher_Helmet_A
 
+<details>
+
+<summary>Shared Properties</summary>
+
 ## Common Properties
 
 | Cloth | Optional | An effect for mimicking how light interacts with cloth. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Cloth Fuzz   | Float   | 0.500000 |
 | Cloth Mask   | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
 | Enable Cloth | Boolean | False |
 
 | Debug | Optional | Adjusts the strength of the roughness & specularity outputs. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Roughness Scale | Float | 1.000000 |
 | Specular Scale  | Float | 1.000000 |
 
+* Only use the above debug scales if you need to preview changes you should then make to your roughness map or metallic mask.
+
 | Emissive | Optional | Affects the colored lightmap generation of the mesh. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Emissive Color  | Color   | { 1.000000, 1.000000, 1.000000, 1.000000 } |
-| Emissive Flow   | Boolean | Texture2D'Materials_XPack.Textures.BlackRG' |
-| Emissive Mask   | Texture | False |
+| Emissive Mask   | Boolean | Texture2D'Materials_XPack.Textures.BlackRG' |
+| Emissive FLow   | Texture | False |
 | Emissive Scale  | Float   | 1.000000 |
 | Enable Emissive | Boolean | False |
 
+* Emissive FLow enables a scrolling effect that modulates the constant emissive scale.
+
 | Pattern | Real-Time | Alters the tint mask of the tinting parameters. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Non Square Tiling | Boolean | False |
 | Pattern           | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
 | Pattern Use       | Float   | 0.000000 |
 | Pattern UV Scale  | Float   | 2.000000 |
 
+* While Pattern Use is a Float value, the value acts as a Boolean, so the value should only ever be 0 or 1.
+
 | Textures | Required | The base textures that make up the base layers of a mesh. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Diffuse      | Texture | Texture2D'Materials_XPack.Textures.GrayRGBA' |
 | MetallicMask | Texture | Texture2D'Materials_XPack.Textures.BlackR_WhiteG' |
 | Normal       | Texture | Texture2D'Materials_XPack.Textures.NormalRGB' |
 
 | Tinting | Optional | Alters the base color of a mesh. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Enable Tinting              | Boolean | False |
 | Legacy Tinting              | Boolean | False |
 | Primary Color               | Color   | { 1.000000, 0.000000, 0.000000, 1.000000 } |
@@ -67,22 +77,46 @@
 | Secondary Color As Emissive | Boolean | False |
 | Tint Mask                   | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
 
+* Legacy Tinting will use a much simpler calculation for altering the base color used for XCOM EU / EW assets.
+
+</details>
+
+<details>
+
+<summary>UnitArmor_M Properties</summary>
+
 ### UnitArmor_M Properties
 
 | Scalar Parameter Values | Optional | Miscellaneous parameters. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Pans Speed And Direction | Float | -0.050000 |
+
+* Pan Speed And Direction will alter the scrolling speed & direction of the Emissive FLow parameter option.
+
+</details>
+
+<details>
+
+<summary>UnitArmor_M_ClearCoat Properties</summary>
 
 ### UnitArmor_M_ClearCoat Properties
 
 | Textures | Required | The base textures that make up the base layers of a mesh. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Add Clear Coat Mask  | Boolean | False |
 | Clear Coat Mask      | Texture | Texture2D'Materials_XPack.Textures.BlackR_WhiteG' |
 | CLear Coat Roughness | Float   | 0.200000 |
 
+</details>
+
+<details>
+
+<summary>UnitArmor_M_OpacityMasked Properties</summary>
+
 ### UnitArmor_M_OpacityMasked Properties
 
 | Textures | Required | The base textures that make up the base layers of a mesh. |
-| ------------- | ------------- | ------------- |
+|     :---:      |     :---:      |     :---:      |
 | Opacity Mask | Texture | Texture2D'Materials_XPack.Textures.WhiteRG' |
+
+</details>
