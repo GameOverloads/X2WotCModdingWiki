@@ -1,1 +1,1 @@
-﻿You created an XCOM 2 Mod Project!
+This is an example of how to create a basic weapon for Xcom2
