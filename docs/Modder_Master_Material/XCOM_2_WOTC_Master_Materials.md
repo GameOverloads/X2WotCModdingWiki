@@ -8,7 +8,7 @@
 
 > [!NOTE]
 > The explained master materials below are the important ones used by many assets rather than every master material.
-> <br>This is for the sake of page length, as their are 36 master materials in total built for WOTC.
+> <br>This is for the sake of page length, as there are 36 master materials in total built for WOTC.
 
 > [!NOTE]
 > UDK Materials & Textures Link: [MaterialsAndTexturesHome](https://docs.unrealengine.com/udk/Three/MaterialsAndTexturesHome.html)
@@ -37,45 +37,51 @@
 | Cloth Mask | One Channel Texture |
 |     :---:      |     :---:      |
 | Red   | Cloth Mask |
-| Green | Black |
-| Blue  | Black |
-| Alpha | White |
+| Green | Black      |
+| Blue  | Black      |
+| Alpha | White      |
 
 | Emissive Mask | One Channel Texture |
 |     :---:      |     :---:      |
 | Red   | Emissive Mask |
-| Green | Black |
-| Blue  | Black |
-| Alpha | White |
+| Green | Black         |
+| Blue  | Black         |
+| Alpha | White         |
 
 | Pattern Mask | Two Channel Texture |
 |     :---:      |     :---:      |
-| Red   | Primary Pattern Tint Mask |
+| Red   | Primary Pattern Tint Mask   |
 | Green | Secondary Pattern Tint Mask |
-| Blue  | Black |
-| Alpha | White |
+| Blue  | Black                       |
+| Alpha | White                       |
 
 | Diffuse | Default Texture |
 |     :---:      |     :---:      |
 | Red   | Base Color |
 | Green | Base Color |
 | Blue  | Base Color |
-| Alpha | Roughness |
+| Alpha | Roughness  |
 
 | Metallic Mask | Two Channel Texture |
 |     :---:      |     :---:      |
 | Red   | Metallic Mask |
 | Green | Occlusion Map |
-| Blue  | Black |
-| Alpha | White |
+| Blue  | Black         |
+| Alpha | White         |
 
 | Normal | Normal Texture |
 |     :---:      |     :---:      |
 | Red   | Normal X |
 | Green | Normal Y |
 | Blue  | Normal Z |
-| Alpha | White |
+| Alpha | White    |
 
+| Tint Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Primary Tint Mask   |
+| Green | Secondary Tint Mask |
+| Blue  | Black               |
+| Alpha | White               |
 
 </details>
 
@@ -88,9 +94,9 @@
 | Clear Coat Mask | One Channel Texture |
 |     :---:      |     :---:      |
 | Red   | Clear Coat Mask |
-| Green | Black |
-| Blue  | Black |
-| Alpha | White |
+| Green | Black           |
+| Blue  | Black           |
+| Alpha | White           |
 
 </details>
 
@@ -103,9 +109,9 @@
 | Opacity Mask | One Channel Texture |
 |     :---:      |     :---:      |
 | Red   | Opacity Mask |
-| Green | Black |
-| Blue  | Black |
-| Alpha | White |
+| Green | Black        |
+| Blue  | Black        |
+| Alpha | White        |
 
 </details>
 
@@ -119,9 +125,9 @@
 
 | Cloth | Optional | An effect for mimicking how light interacts with cloth. |
 |     :---:      |     :---:      |     :---:      |
-| Cloth Fuzz   | Float   | 0.500000 |
+| Cloth Fuzz   | Float   | 0.500000                                    |
 | Cloth Mask   | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
-| Enable Cloth | Boolean | False |
+| Enable Cloth | Boolean | False                                       |
 
 | Debug | Optional | Adjusts the strength of the roughness & specularity outputs. |
 |     :---:      |     :---:      |     :---:      |
@@ -132,36 +138,36 @@
 
 | Emissive | Optional | Affects the colored lightmap generation of the mesh. |
 |     :---:      |     :---:      |     :---:      |
-| Emissive Color  | Color   | { 1.000000, 1.000000, 1.000000, 1.000000 } |
+| Emissive Color  | Color   | { 1.000000, 1.000000, 1.000000, 1.000000 }  |
 | Emissive Mask   | Boolean | Texture2D'Materials_XPack.Textures.BlackRG' |
-| Emissive FLow   | Texture | False |
-| Emissive Scale  | Float   | 1.000000 |
-| Enable Emissive | Boolean | False |
+| Emissive FLow   | Texture | False                                       |
+| Emissive Scale  | Float   | 1.000000                                    |
+| Enable Emissive | Boolean | False                                       |
 
 * Emissive FLow enables a scrolling effect that modulates the constant emissive scale.
 
 | Pattern | Real-Time | Alters the tint mask of the tinting parameters. |
 |     :---:      |     :---:      |     :---:      |
-| Non Square Tiling | Boolean | False |
+| Non Square Tiling | Boolean | False                                       |
 | Pattern           | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
-| Pattern Use       | Float   | 0.000000 |
-| Pattern UV Scale  | Float   | 2.000000 |
+| Pattern Use       | Float   | 0.000000                                    |
+| Pattern UV Scale  | Float   | 2.000000                                    |
 
 * While Pattern Use is a Float value, the value acts as a Boolean, so the value should only ever be 0 or 1.
 
 | Textures | Required | The base textures that make up the base layers of a mesh. |
 |     :---:      |     :---:      |     :---:      |
-| Diffuse      | Texture | Texture2D'Materials_XPack.Textures.GrayRGBA' |
+| Diffuse      | Texture | Texture2D'Materials_XPack.Textures.GrayRGBA'      |
 | MetallicMask | Texture | Texture2D'Materials_XPack.Textures.BlackR_WhiteG' |
-| Normal       | Texture | Texture2D'Materials_XPack.Textures.NormalRGB' |
+| Normal       | Texture | Texture2D'Materials_XPack.Textures.NormalRGB'     |
 
 | Tinting | Optional | Alters the base color of a mesh. |
 |     :---:      |     :---:      |     :---:      |
-| Enable Tinting              | Boolean | False |
-| Legacy Tinting              | Boolean | False |
-| Primary Color               | Color   | { 1.000000, 0.000000, 0.000000, 1.000000 } |
-| Secondary Color             | Color   | { 0.000000, 1.000000, 0.000000, 1.000000 } |
-| Secondary Color As Emissive | Boolean | False |
+| Enable Tinting              | Boolean | False                                       |
+| Legacy Tinting              | Boolean | False                                       |
+| Primary Color               | Color   | { 1.000000, 0.000000, 0.000000, 1.000000 }  |
+| Secondary Color             | Color   | { 0.000000, 1.000000, 0.000000, 1.000000 }  |
+| Secondary Color As Emissive | Boolean | False                                       |
 | Tint Mask                   | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
 
 * Legacy Tinting will use a much simpler calculation for altering the base color used for XCOM EU / EW assets.
@@ -190,9 +196,9 @@
 
 | Textures | Required | The base textures that make up the base layers of a mesh. |
 |     :---:      |     :---:      |     :---:      |
-| Add Clear Coat Mask  | Boolean | False |
+| Add Clear Coat Mask  | Boolean | False                                             |
 | Clear Coat Mask      | Texture | Texture2D'Materials_XPack.Textures.BlackR_WhiteG' |
-| CLear Coat Roughness | Float   | 0.200000 |
+| CLear Coat Roughness | Float   | 0.200000                                          |
 
 </details>
 
@@ -205,5 +211,235 @@
 | Textures | Required | The base textures that make up the base layers of a mesh. |
 |     :---:      |     :---:      |     :---:      |
 | Opacity Mask | Texture | Texture2D'Materials_XPack.Textures.WhiteRG' |
+
+</details>
+
+-------------
+
+# UnitWeapon_M
+**Used with faction soldier weapon assets.**
+> [!IMPORTANT]
+> Material Function Dependencies: StandardMetalic , ClothFuzz
+
+> [!NOTE]
+> Master Material Variations: UnitWeapon_M_ClearCoat , UnitWeapon_M_OpacityMasked
+
+> [!NOTE]
+> Example Material Instance: CnvSMG > Materials > HOR_Cnv_SMG
+
+-------------
+
+<details>
+
+<summary>Shared Textures</summary>
+
+## Shared Textures
+
+| Cloth Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Cloth Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+| Emissive Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Emissive Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+| Pattern Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Primary Pattern Tint Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+| Diffuse | Default Texture |
+|     :---:      |     :---:      |
+| Red   | Base Color |
+| Green | Base Color |
+| Blue  | Base Color |
+| Alpha | Roughness |
+
+| Metallic Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Metallic Mask |
+| Green | Occlusion Map |
+| Blue  | Black |
+| Alpha | White |
+
+| Normal | Normal Texture |
+|     :---:      |     :---:      |
+| Red   | Normal X |
+| Green | Normal Y |
+| Blue  | Normal Z |
+| Alpha | White |
+
+</details>
+
+<details>
+
+<summary>UnitWeapon_M Textures</summary>
+
+### UnitWeapon_M Textures
+
+| Tint Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Primary Tint Mask   |
+| Green | Blank               |
+| Blue  | Black               |
+| Alpha | White               |
+
+</details>
+
+<details>
+
+<summary>UnitWeapon_M_ClearCoat Textures</summary>
+
+### UnitWeapon_M_ClearCoat Textures
+
+| Clear Coat Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Clear Coat Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+| Tint Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Primary Tint Mask   |
+| Green | Secondary Tint Mask |
+| Blue  | Black               |
+| Alpha | White               |
+
+</details>
+
+<details>
+
+<summary>UnitWeapon_M_OpacityMasked Textures</summary>
+
+### UnitWeapon_M_OpacityMasked Textures
+
+| Opacity Mask | One Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Opacity Mask |
+| Green | Black |
+| Blue  | Black |
+| Alpha | White |
+
+| Tint Mask | Two Channel Texture |
+|     :---:      |     :---:      |
+| Red   | Primary Tint Mask   |
+| Green | Secondary Tint Mask |
+| Blue  | Black               |
+| Alpha | White               |
+
+</details>
+
+-------------
+
+<details>
+
+<summary>Shared Properties</summary>
+
+## Shared Properties
+
+| Cloth | Optional | An effect for mimicking how light interacts with cloth. |
+|     :---:      |     :---:      |     :---:      |
+| Cloth Fuzz   | Float   | 0.500000 |
+| Cloth Mask   | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
+| Enable Cloth | Boolean | False |
+
+| Debug | Optional | Adjusts the strength of the roughness & specularity outputs. |
+|     :---:      |     :---:      |     :---:      |
+| Roughness Scale | Float | 1.000000 |
+| Specular Scale  | Float | 1.000000 |
+
+* Only use the above debug scales if you need to preview changes you should then make to your roughness map or metallic mask.
+
+| Emissive | Optional | Affects the colored lightmap generation of the mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Emissive Color              | Color   | { 1.000000, 1.000000, 1.000000, 1.000000 } |
+| Emissive Mask               | Boolean | Texture2D'Materials_XPack.Textures.BlackRG' |
+| Emissive Scale              | Float   | 1.000000 |
+| Enable Emissive             | Boolean | False |
+
+* Emissive FLow enables a scrolling effect that modulates the constant emissive scale.
+
+| Pattern | Real-Time | Alters the tint mask of the tinting parameters. |
+|     :---:      |     :---:      |     :---:      |
+| Non Square Tiling | Boolean | False |
+| Pattern           | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
+| Pattern Use       | Float   | 0.000000 |
+| Pattern UV Scale  | Float   | 2.000000 |
+
+* While Pattern Use is a Float value, the value acts as a Boolean, so the value should only ever be 0 or 1.
+
+| Textures | Required | The base textures that make up the base layers of a mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Diffuse      | Texture | Texture2D'Materials_XPack.Textures.GrayRGBA' |
+| MetallicMask | Texture | Texture2D'Materials_XPack.Textures.BlackR_WhiteG' |
+| Normal       | Texture | Texture2D'Materials_XPack.Textures.NormalRGB' |
+
+| Tinting | Optional | Alters the base color of a mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Enable Tinting              | Boolean | False |
+| Legacy Tinting              | Boolean | False |
+| Primary Color               | Color   | { 1.000000, 0.000000, 0.000000, 1.000000 } |
+| Tint Mask                   | Texture | Texture2D'Materials_XPack.Textures.BlackRG' |
+
+* Legacy Tinting will use a much simpler calculation for altering the base color used for XCOM EU / EW assets.
+
+</details>
+
+<details>
+
+<summary>UnitWeapon_M Properties</summary>
+
+### UnitWeapon_M Properties
+
+| Emissive | Optional | Affects the colored lightmap generation of the mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Emissive FLow               | Texture | False |
+| Pans Speed And Direction    | Float   | -0.050000 |
+| Secondary Color As Emissive | Boolean | False |
+
+</details>
+
+<details>
+
+<summary>UnitWeapon_M_ClearCoat Properties</summary>
+
+### UnitWeapon_M_ClearCoat Properties
+
+| Textures | Required | The base textures that make up the base layers of a mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Add Clear Coat Mask  | Boolean | False |
+| Clear Coat Mask      | Texture | Texture2D'Materials_XPack.Textures.BlackR_WhiteG' |
+| CLear Coat Roughness | Float   | 0.200000 |
+
+| Tinting | Optional | Alters the base color of a mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Secondary Color               | Color   | { 0.000000, 1.000000, 0.000000, 1.000000 } |
+| Secondary Color As Emissive   | Boolean | False |
+
+</details>
+
+<details>
+
+<summary>UnitWeapon_M_OpacityMasked Properties</summary>
+
+### UnitWeapon_M_OpacityMasked Properties
+
+| Textures | Required | The base textures that make up the base layers of a mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Opacity Mask | Texture | Texture2D'Materials_XPack.Textures.WhiteRG' |
+
+| Tinting | Optional | Alters the base color of a mesh. |
+|     :---:      |     :---:      |     :---:      |
+| Secondary Color               | Color   | { 0.000000, 1.000000, 0.000000, 1.000000 } |
+| Secondary Color As Emissive   | Boolean | False |
 
 </details>
